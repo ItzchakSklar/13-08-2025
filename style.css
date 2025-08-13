@@ -1,0 +1,50 @@
+main {
+    background: #0F1320;
+}
+
+p {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+.bootom-sing-up {
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    justify-content: flex-start;
+}
+
+.right {
+    justify-content: flex-end;
+}
+
+.left,
+.right {
+    display: flex;
+    gap: 2%;
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+#imidle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imidle-left
+.imidle-right{
+    display: flex;
+    gap: 2%;
+}
